@@ -184,3 +184,5 @@ dmypy.json
 # BMP
 *.bmp
 *.dib
+
+test.py
