@@ -16,7 +16,7 @@ def new_file_name(path):
     return new_name
 
 
-# print(new_file_name("testy_photo_checker\FB_IMG_1652448324059.jpg"))
+
 
 def resault(path):
     old_file = path
