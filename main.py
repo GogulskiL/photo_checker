@@ -1,6 +1,10 @@
 import os
 import time
 
+def get_folder_path():
+    folder_path = input("Podaj ścieżkę do folderu:  ")
+    return folder_path
+
 
 def get_time_created(path):
     # loading the photo creation date
