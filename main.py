@@ -1,8 +1,5 @@
 import os
-from os import path
 import time
-
-path_test = "..."
 
 
 def get_time_created(path):
