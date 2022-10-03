@@ -8,8 +8,8 @@ def get_folder_path():
 
 def get_time_created(path):
     # loading the photo creation date
-    c_time = os.path.getctime(path)
-    local_time = time.ctime(c_time)
+    c_time = os.path.getmtime(path)
+    local_time = time.gmtime(c_time)
     return local_time
 
 
