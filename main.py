@@ -1,6 +1,7 @@
 import os
 import time
 
+
 def get_folder_path():
     folder_path = input("Podaj ścieżkę do folderu:  ")
     return folder_path
@@ -15,8 +16,8 @@ def get_time_created(path):
 
 def new_file_name(path):
     # new photo name, change the colon to a hyphen
-    get_new_name = str(get_time_created(path)).split(" ")
-    new_name = "_".join(get_new_name).replace(":", "-")
+    new_name = "_".join(
+        str(get_time_created(path)).split(" ")).replace(":", "-")
     return new_name
 
 
