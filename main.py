@@ -16,8 +16,7 @@ def get_time_created(path):
 
 def new_file_name(path):
     # new photo name, change the colon to a hyphen
-    new_name = "_".join(
-        str(get_time_created(path)).split(" ")).replace(":", "-")
+    new_name = "_".join(str(get_time_created(path)).split(" ")).replace(":", "-")
     return new_name
 
 
