@@ -24,4 +24,4 @@ def result_new_photo(path):
     # renaming and saving a new photo
     old_file = path
     new_photo = new_file_name(old_file) + ".jpg"
-    return os.rename(old_file, new_photo)
+    return os.rename(os.path.join(path,old_file),os.path.join(path,new_photo))

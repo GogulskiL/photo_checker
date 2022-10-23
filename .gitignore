@@ -187,3 +187,10 @@ dmypy.json
 
 test.py
 test_1.py
+.idea/misc.xml
+.idea/modules.xml
+.idea/photo_checker.iml
+.idea/vcs.xml
+.idea/inspectionProfiles/profiles_settings.xml
+.idea/.gitignore
+.gitignore
