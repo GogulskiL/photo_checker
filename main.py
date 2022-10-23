@@ -6,6 +6,8 @@ def get_folder_path():
     folder_path = input("Podaj ścieżkę do folderu:  ")
     return folder_path
 
+def list_photo_in_folder(folder_path):
+    return(os.listdir(folder_path))
 
 def get_time_created(path):
     # loading the photo creation date
@@ -25,3 +27,13 @@ def result_new_photo(path):
     old_file = path
     new_photo = new_file_name(old_file) + ".jpg"
     return os.rename(os.path.join(path,old_file),os.path.join(path,new_photo))
+
+def main():
+    path = get_folder_path()
+    folder_cotent = list_photo_in_folder(path)
+    for i in folder_cotent:
+        return result_new_photo(i)
+
+
+if __name__ == '__main__':
+    main()
