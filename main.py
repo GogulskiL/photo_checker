@@ -20,11 +20,12 @@ def get_time_created(i):
 
 def new_file_name(dir_path, i):
     # new photo name, change the colon to a hyphen
-    new_name = str("_".join((get_time_created(dir_path+ "/" + i)).split(" ")).replace(":", "-"))
+    new_name = str(
+        "_".join((get_time_created(dir_path + "/" + i)).split(" ")).replace(":", "-"))
     return new_name
 
 
-def result_new_photo(dir_path,i):
+def result_new_photo(dir_path, i):
     # renaming and saving a new photo
     old_file = i
     new_photo = new_file_name(dir_path, i) + ".jpg"
@@ -33,8 +34,9 @@ def result_new_photo(dir_path,i):
 
 def main():
     path = get_folder_path()
-    folder_cotent = list_photo_in_folder(path)
-    for i in folder_cotent:
+    folder_content = list_photo_in_folder(path)
+    a = len(folder_content)
+    for i in range(0, a):
         return result_new_photo(path, i)
 
 
