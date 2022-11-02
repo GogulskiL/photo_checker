@@ -41,5 +41,5 @@ def check_rename_photo():
 
 
 if __name__ == '__main__':
-    
+
     check_rename_photo()
