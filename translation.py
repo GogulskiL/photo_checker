@@ -1,9 +1,9 @@
-dict_en ={
+dict_en = {
 
 }
 
 dict_pl = {
-    
+
 }
 
 
