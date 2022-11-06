@@ -20,6 +20,19 @@ dict_en_to_pl_days = {
 
 dict_en_to_pl_months = {
 
+    "Jan": "st",
+    "Feb": "lut",
+    "Mar": "mrz",
+    "Apr": "kw",
+    "May": "maj",
+    "Jun": "cz",
+    "Jul": "lip",
+    "Aug": "sier",
+    "Sep": "wrz",
+    "Oct": "paź",
+    "Nov": "li",
+    "Dec": "gr",
+
 }
 
 
