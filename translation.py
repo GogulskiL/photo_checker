@@ -19,7 +19,6 @@ dict_en_to_pl_days = {
 }
 
 dict_en_to_pl_months = {
-
     "Jan": "st",
     "Feb": "lut",
     "Mar": "mrz",
@@ -32,9 +31,13 @@ dict_en_to_pl_months = {
     "Oct": "paź",
     "Nov": "li",
     "Dec": "gr",
-
 }
+
+def is_trans_to_pl():
+    flag = str(input('Polskie nazwy dni/miesięcy wpisz 1, angielski nazwy dni miesięcy wpisz 2'))
+    return flag
 
 
 def translation_pl():
     pass
+print(dict[1].values)
